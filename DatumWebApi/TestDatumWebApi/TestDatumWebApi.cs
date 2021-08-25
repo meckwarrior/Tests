@@ -31,7 +31,7 @@ namespace TestDatumWebApi
         [Test]
         public void Get_ShowMeTheCode_ReturnUrlString()
         {
-            string url = "https://github.com/meckwarrior/Tests/tree/master/DatumWebApi";
+            string url = "https://github.com/meckwarrior/Tests.git";
 
             Assert.AreEqual(url,new ShowMeTheCodeController().GetTheCodeUrl());
         }

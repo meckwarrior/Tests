@@ -14,7 +14,7 @@ namespace DatumWebApi.Controllers
         [HttpGet]
         public string GetTheCodeUrl()
         {
-            return "https://github.com/meckwarrior/Tests/tree/master/DatumWebApi";
+            return "https://github.com/meckwarrior/Tests.git";
         }
     }
 }
