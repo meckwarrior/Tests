@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace TestDatumWebApi
 {
-    public class Tests
+    public class TestDatumWebApi
     {
         private JurosController _jurosController;
 
@@ -31,7 +31,7 @@ namespace TestDatumWebApi
         [Test]
         public void Get_ShowMeTheCode_ReturnUrlString()
         {
-            string url = "url";
+            string url = "https://github.com/meckwarrior/Tests/tree/master/DatumWebApi";
 
             Assert.AreEqual(url,new ShowMeTheCodeController().GetTheCodeUrl());
         }
